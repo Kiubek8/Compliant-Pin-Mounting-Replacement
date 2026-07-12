@@ -5,7 +5,7 @@ This project is a reverse-engineered replacement for a failed factory mounting p
 
 ## The problem
 The factory mounting pins broke due to mechanical stress. A replacement part was designed to replicate the original function while maintaining their compliant properties.
-![original part](originalPart.jpg)
+![original part](Images/originalPart.jpg)
 
 ## Material
 PLA was chosen for the initial design due to:
@@ -35,11 +35,11 @@ The first prototype was undersized, multiple scaled versions were printed:
 | 135% | Secure connection but difficult to remove |
 | 140% | Too large to fit |
 
-![sizes tested](v0.1_differentSizes.jpg)
+![sizes tested](Images/v0.1_differentSizes.jpg)
 
 Based on the tested scaling factors 125% was chosen as the most balanced option but 130% may be considered in the future.
 
-![chosen size](v0.1_chosenSize.jpg)
+![chosen size](Images/v0.1_chosenSize.jpg)
 
 #### Planned Changes
 ##### Removal Mechanism
