@@ -1,4 +1,5 @@
 # Compliant-Pin-Mounting-Replacement
+![original part](Images/v1.2_inUse.jpg)
 
 ## Overview
 This project is a reverse-engineered replacement for a failed factory mounting pin. The goal is to reproduce the original compliant mechanism while improving durability and ease of removal.
@@ -63,4 +64,7 @@ However the adjusted gap is too small and requires a large amount of force to pu
 - Widen the gap to allow for easier addition and removal
 - Make the pins shaft shorter to better match the original part in length
 
+### v1.2
+![original part](Images/v1.2.jpg)
+The part is now perfectly functional. The hole is wide enough to allow for insertion and removal.
 
