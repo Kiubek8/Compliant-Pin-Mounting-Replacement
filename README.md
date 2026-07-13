@@ -52,9 +52,13 @@ Initial prototype require partial disassembly to remove. Planned improvements:
 - Adding the mounting system.
 
 ### v1.1
+![original part](Images/v1.0_part.jpg)
 The added backramp and line holder function as intended.
+![original part](Images/pinInside.jpg)
 However the adjusted gap is too small and requires a large amount of force to put it and remove.
+![original part](Images/pinFullyInside.jpg)
 
+![original part](Images/pinTooNarrow.jpg)
 #### Planned Changes
 - Widen the gap to allow for easier addition and removal
 - Make the pins shaft shorter to better match the original part in length
