@@ -51,7 +51,12 @@ Initial prototype require partial disassembly to remove. Planned improvements:
 ##### Mounting Interface
 - Adding the mounting system.
 
-### v1.0
+### v1.1
+The added backramp and line holder function as intended.
+However the adjusted gap is too small and requires a large amount of force to put it and remove.
 
+#### Planned Changes
+- Widen the gap to allow for easier addition and removal
+- Make the pins shaft shorter to better match the original part in length
 
 
