@@ -1,11 +1,11 @@
 # Compliant-Pin-Mounting-Replacement
-![original part](Images/v1.2_inUse.jpg)
+![finalPart](Images/v1.2_inUse.jpg)
 
 ## Overview
 This project is a reverse-engineered replacement for a failed factory mounting pin. The goal is to reproduce the original compliant mechanism while improving durability and ease of removal.
 
 ## The problem
-The factory mounting pins broke due to mechanical stress. A replacement part was designed to replicate the original function while maintaining their compliant properties.
+The factory mounting pins broke due to mechanical stress. A replacement part was designed to replicate the original function while maintaining its compliant properties.
 ![original part](Images/originalPart.jpg)
 
 ## Material
@@ -14,14 +14,14 @@ PLA was chosen for the initial design due to:
 - ease of manufacturing
 - good dimensional accuracy
 - sufficient mechanical properties for compliant design
-For the final version tougher materials like ABS or NYLON may be considered.
+For the final version tougher materials such as ABS or NYLON may be considered.
 
 
 ### Printing
 - Printer: Bambu Lab A1
 - Nozzle: 0.2mm
 - Layer height: 0.1mm
-- Orientation: printed horizontally on its longest side to align layers with the expected tensile and shear stress
+- Orientation: printed horizontally on its longest side to align layers with the expected tensile and shear stresses
 
 ### v0.1 Initial Prototype
 Initial measurements were taken with digital calipers. The focus of the initial prototype is on replicating the compliant part.
@@ -44,27 +44,54 @@ Based on the tested scaling factors 125% was chosen as the most balanced option 
 
 #### Planned Changes
 ##### Removal Mechanism
-Initial prototype require partial disassembly to remove. Planned improvements:
+The initial prototype required partial disassembly to remove. Planned improvements:
 - Adding a ramp to the back side of the pin
 - Lengthening the opening
 ##### Strength Improvements
-- Narrowing the opening to improve strength as the additional compliance was found to be unnecessery
+- Narrowing the opening to improve strength as the additional compliance was found to be unnecessary
 ##### Mounting Interface
 - Adding the mounting system.
 
-### v1.1
-![original part](Images/v1.0_part.jpg)
-The added backramp and line holder function as intended.
-![original part](Images/pinInside.jpg)
-However the adjusted gap is too small and requires a large amount of force to put it and remove.
-![original part](Images/pinFullyInside.jpg)
+### v1.0 Intermediary version, not tested
+Added the back ramp to allow for easier removal.
 
-![original part](Images/pinTooNarrow.jpg)
+### v1.1 First fully functional prototype
+![v1.0](Images/v1.0_part.jpg)
+Added the line holder function as intended.
+![pinInserted](Images/pinInside.jpg)
+The reduced gap doesn't allow for sufficient compliance for easy removal, a larger one is needed.
+![pinFullyInserted](Images/pinFullyInside.jpg)
+
+![gapIsTooNarrow](Images/pinTooNarrow.jpg)
 #### Planned Changes
 - Widen the gap to allow for easier addition and removal
 - Make the pins shaft shorter to better match the original part in length
 
-### v1.2
-![original part](Images/v1.2.jpg)
+### v1.2 Final revision
+![v1.2](Images/v1.2.jpg)
 The part is now perfectly functional. The hole is wide enough to allow for insertion and removal.
 
+## Final Result
+
+The v1.2 prototype successfully replaces the original mounting pin.
+
+Improvements compared to the original:
+- greatly improved retention compared to the original
+- can be easily reproduced
+
+The final design was printed using PLA, a tougher material may be considered if repeated removal and insertion is expected or sustained stress proves to be an issue.
+
+#### Limitations
+
+The final design was not yet subjucated to long term fatique testing.
+
+## Files
+/Images contains .jpg images showcasing the different revisions and changes
+/3DFiles contains the .3mf files which can be used to print the select version
+/cadFiles contains the .FCStd cad files which can be used to further edit or see the changes in each revision
+
+## Tools used
+- Bambu Lab A1 3d printer
+- PLA plastic filament
+- FreeCAD cad software
+- Digital calipers
